@@ -176,7 +176,6 @@ h2::after {
 }
 
 .video-option {
-  background-color: #77c04b;
   border-radius: 0.5rem;
   cursor: pointer;
 
@@ -185,16 +184,16 @@ h2::after {
 }
 
 .video-option-1 {
-  background-image: url("/images/003.jpg");
+  background-image: url("../images/003.jpg");
 }
 .video-option-2 {
-  background-image: url("/images/004.jpg");
+  background-image: url("../images/004.jpg");
 }
 .video-option-3 {
-  background-image: url("/images/005.jpg");
+  background-image: url("../images/005.jpg");
 }
 .video-option-4 {
-  background-image: url("/images/006.jpg");
+  background-image: url("../images/006.jpg");
 }
 
 .gallery-content {
