@@ -1,0 +1,54 @@
+colors
+--color-primary: #1F1B2D;
+--color-secondary: #FF385C
+--color-tertiary: #77C04B;
+
+--bg-grey: #F7F8FA;
+
+Delicious Bites Restaurant
+Love at First Bite
+
+Welcome to Delicious Bites, where passion for food meets the art of culinary excellence. Since our
+inception, we've been dedicated to creating unforgettable dining experiences, combining fresh
+ingredients, bold flavors, and a warm, inviting atmosphere.
+
+Our Story
+At Delicious Bites, we believe that food is more than just sustenance—it’s a journey that brings people together. From humble beginnings as a small family-owned eatery, we’ve grown into a beloved destination for food enthusiasts who crave quality, authenticity, and creativity in every bite.
+
+Our chefs draw inspiration from global cuisines while celebrating the local flavors of our community. Every dish we serve is crafted with care, ensuring that each meal tells a story of passion, tradition, and innovation.
+
+
+===========================
+TABLE
+============================
+
+Appetizers
+Dish Name	Price	Description
+Garlic Bread	$4.99	Freshly baked bread with garlic butter.
+Caesar Salad	$7.49	Crisp romaine lettuce with Caesar dressing.
+Mozzarella Sticks	$6.99	Golden-fried mozzarella served with marinara.
+Spring Rolls	$5.99	Veggie-filled rolls with sweet chili sauce.
+
+Main Courses
+Dish Name	Price	Description
+Grilled Chicken	$14.99	Juicy chicken breast with herbs and spices.
+Spaghetti Bolognese	$12.99	Pasta in a rich, slow-cooked meat sauce.
+Beef Steak	$19.99	Tender, seasoned steak served with mashed potatoes.
+Vegetarian Pizza	$11.99	Wood-fired pizza topped with fresh veggies and cheese.
+
+Desserts
+Dish Name	Price	Description
+Chocolate Lava Cake	$6.99	Warm cake with molten chocolate filling.
+Cheesecake	$5.99	Creamy cheesecake with a graham cracker crust.
+Fruit Salad	$4.99	Freshly cut seasonal fruits.
+Tiramisu	$6.49	Italian coffee-flavored layered dessert.
+
+Drinks
+Drink Name	Price	Description
+Lemonade	$3.99	Freshly squeezed lemon juice with a hint of mint.
+Iced Coffee	$4.49	Chilled coffee served over ice, with or without cream.
+Smoothie	$5.99	Choice of mango, strawberry, or mixed berry.
+Sparkling Water	$2.99	Lightly carbonated water with a twist of lime.
+
+Follow us: Instagram, Youtube
+2025 Delicious Bites. All rights reserved.
