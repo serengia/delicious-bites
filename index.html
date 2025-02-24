@@ -9,6 +9,7 @@
             crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="./css/styles.css">
         <title>Delicious Bites Restaurant - Love at First Bite</title>
+        <link rel="icon" href="./favicon.png">
     </head>
 
     <body>
@@ -25,7 +26,8 @@
                 </nav>
                 <div class="header-btns">
                     <a href="#contact" class="link-btn link-btn-primary">Contact us</a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="link-btn link-btn-secondary">Order</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScugsdBJrx6gjcoKzIWHZhmKjvjKP5RsDwwAa85p5rRcwFJOw/viewform?usp=dialog"
+                        target="_blank" rel="noopener noreferrer" class="link-btn link-btn-secondary">Order</a>
                 </div>
             </div>
         </header>
@@ -61,7 +63,8 @@
                             Every dish we serve is crafted with care, ensuring that each meal tells a story of passion,
                             tradition,
                             and innovation.</p>
-                        <a href="#" target="_blank" rel="noopener noreferrer"
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScugsdBJrx6gjcoKzIWHZhmKjvjKP5RsDwwAa85p5rRcwFJOw/viewform?usp=dialog"
+                            target="_blank" rel="noopener noreferrer"
                             class="link-btn link-btn-secondary about-link">Order</a>
                     </div>
                     <div class="story-image-wrapper">
@@ -306,23 +309,25 @@
                 <div class="row contact-content">
                     <div class="form-wrapper">
                         <h2 class="contact-us-title">Contact Us</h2>
-                        <form class="form">
+                        <form class="form" action="https://api.web3forms.com/submit" method="POST">
                             <div class="inputs-grid">
                                 <div class="input-wrapper">
                                     <label for="fullname">Full name</label>
-                                    <input type="text" id="fullname" placeholder="Full Name">
+                                    <input type="hidden" name="access_key" value="70938dc3-0ad2-422d-997f-5d962a13a3e9">
+                                    <input type="text" id="fullname" name="fullname" required placeholder="Full Name">
                                 </div>
                                 <div class="input-wrapper">
                                     <label for="tel">Telephone No.</label>
-                                    <input type="tel" id="tel" placeholder="+254704555555">
+                                    <input type="tel" id="tel" name="tel" placeholder="+254704555555">
                                 </div>
                                 <div class="input-wrapper">
                                     <label for="tel">Email.</label>
-                                    <input type="email" id="email" placeholder="johndoe@gmail.com">
+                                    <input type="email" id="email" name="email" required
+                                        placeholder="johndoe@gmail.com">
                                 </div>
                                 <div class="input-wrapper">
                                     <label for="where">Where you did you hear about us?</label>
-                                    <select id="where">
+                                    <select id="where" name="where" required>
                                         <option value="Social Media">Social Media</option>
                                         <option value="Word of mouth">Word of mouth</option>
                                         <option value="Radio">Radio</option>
@@ -332,7 +337,7 @@
                             </div>
                             <div class="input-wrapper message-box">
                                 <label for="message">Your Message</label>
-                                <textarea id="message" rows="4"></textarea>
+                                <textarea id="message" rows="4" name="message"></textarea>
                             </div>
                             <div>
                                 <button type="submit" class="form-btn">Submit form</button>
