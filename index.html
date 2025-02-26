@@ -10,12 +10,13 @@
         <link rel="stylesheet" href="./css/styles.css">
         <title>Delicious Bites Restaurant - Love at First Bite</title>
         <link rel="icon" href="./favicon.png">
+        <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
     </head>
 
     <body>
         <header class="header">
             <div class="row header-content">
-                <img src="db-logo.png" alt="Delicious bites logo" style="width:45px;height:45px;cursor: pointer;">
+                <img src="delicious-bites-logo.png" alt="Delicious bites logo" class="logo">
                 <nav class="nav">
                     <ul class="nav-list">
                         <li class="nav-item"><a href="#about-us" class="nav-link active">About us</a></li>
@@ -38,7 +39,8 @@
                         <video src="./media/cooking.mp4" class="video" autoplay muted loop></video>
                     </div>
                     <div class="videos-grid">
-                        <h1>Delicious Bites Restaurant</h1>
+                        <h1 class="primary-title">Delicious Bites Restaurant <br><span class="tagline">- love at first
+                                bite!</span></h1>
                         <div class="videos-options">
                             <div class="video-option video-option-1">&nbsp;</div>
                             <div class="video-option video-option-2">&nbsp;</div>
@@ -176,6 +178,7 @@
                         <div class="table-wrapper">
                             <h3>Full menu</h3>
                             <table class="table">
+                                <!-- <caption>Full Menu</caption> -->
                                 <tr class="table-head">
                                     <th colspan="2">Dish Name</th>
                                     <th>Price</th>
@@ -290,18 +293,20 @@
                 <div class="row gallery-content">
                     <h2>Gallery images</h2>
                     <div class="gallery-images">
-                        <img src="images/001.jpg" alt="" class="gallery-image">
-                        <img src="images/002.jpg" alt="" class="gallery-image">
-                        <img src="images/003.jpg" alt="" class="gallery-image">
-                        <img src="images/004.jpg" alt="" class="gallery-image">
-                        <img src="images/005.jpg" alt="" class="gallery-image">
-                        <img src="images/006.jpg" alt="" class="gallery-image">
-                        <img src="images/007.jpg" alt="" class="gallery-image">
-                        <img src="images/008.jpg" alt="" class="gallery-image">
-                        <img src="images/009.jpg" alt="" class="gallery-image">
-                        <img src="images/010.jpg" alt="" class="gallery-image">
-                        <img src="images/011.jpg" alt="" class="gallery-image">
-                        <img src="images/012.jpg" alt="" class="gallery-image">
+                        <div class="gallery-image-wrapper"><img src="images/001.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/002.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/003.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/004.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"> <img src="images/005.jpg" alt="" class="gallery-image">
+                        </div>
+                        <div class="gallery-image-wrapper"><img src="images/006.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/007.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"> <img src="images/008.jpg" alt="" class="gallery-image">
+                        </div>
+                        <div class="gallery-image-wrapper"><img src="images/009.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/010.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/011.jpg" alt="" class="gallery-image"></div>
+                        <div class="gallery-image-wrapper"><img src="images/012.jpg" alt="" class="gallery-image"></div>
                     </div>
                 </div>
             </section>
@@ -310,6 +315,7 @@
                     <div class="form-wrapper">
                         <h2 class="contact-us-title">Contact Us</h2>
                         <form class="form" action="https://api.web3forms.com/submit" method="POST">
+                            <!-- <form action="https://formspree.io/f/meoebnza" method="POST"> -->
                             <div class="inputs-grid">
                                 <div class="input-wrapper">
                                     <label for="fullname">Full name</label>
