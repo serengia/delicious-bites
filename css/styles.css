@@ -224,6 +224,7 @@ h3 {
 .about-content {
   display: flex;
   gap: 4rem;
+  transition: all 1.3s;
   .about-text {
     flex: 1;
 
@@ -243,10 +244,13 @@ h3 {
     overflow: hidden;
     .story-image {
       width: 100%;
-      /* width: 40rem; */
-
       height: 100%;
+      transition: all 1.5s;
     }
+  }
+
+  &:hover .story-image {
+    transform: scale(1.2);
   }
 }
 
