@@ -22,6 +22,39 @@ Our chefs draw inspiration from global cuisines while celebrating the local flav
 TABLE
 ============================
 
+Delicious Bites Special
+
+Lobster Thermidor
+$29.99
+A luxurious French dish featuring tender lobster in a rich, creamy mustard sauce, topped with cheese and baked to perfection.
+
+
+Sushi Platter
+$24.99
+A delightful assortment of fresh sushi and sashimi, including salmon, tuna, and shrimp, served with soy sauce, wasabi, and pickled ginger.
+
+
+BBQ Ribs
+$18.99
+Slow-cooked, fall-off-the-bone ribs glazed in a smoky BBQ sauce, served with a side of coleslaw and crispy fries.
+
+
+Vegan Buddha Bowl
+$13.99
+A nourishing bowl packed with quinoa, chickpeas, fresh avocado, roasted sweet potatoes, and vibrant seasonal vegetables, drizzled with tahini dressing.
+
+
+Grilled Salmon
+$22.99
+Perfectly grilled salmon fillet with a lemon-butter glaze, served with garlic mashed potatoes and steamed asparagus.
+
+
+Pasta Primavera
+$16.99
+A colorful medley of fresh vegetables sauteed with olive oil and tossed with al dente pasta in a light garlic-parmesan sauce.
+
+
+
 Appetizers
 Dish Name	Price	Description
 Garlic Bread	$4.99	Freshly baked bread with garlic butter.
