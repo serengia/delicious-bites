@@ -283,6 +283,9 @@ h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 4rem;
+  @media (max-width: 1130px) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .special-menu-item {
