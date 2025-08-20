@@ -84,7 +84,6 @@ h3 {
   @media (max-width: 1000px) {
     flex: 1;
   }
-  position: relative;
 }
 
 .nav-list {
@@ -123,11 +122,11 @@ h3 {
 }
 
 .menu-toggle-wrapper {
-  text-align: right;
-  /* display: flex;
+  /* text-align: right; */
+  display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: yellow; */
+  /* background-color: yellow; */
 }
 
 .menu-toggle {
@@ -174,13 +173,14 @@ h3 {
   padding: 0.6rem 1.2rem;
   border-radius: 0.3rem;
   color: #fff;
-  /* min-width: 10rem; */
+  min-width: 10rem;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @media (max-width: 500px) {
     padding: 0.4rem 0.8rem;
+    min-width: auto;
   }
 }
 
@@ -197,10 +197,6 @@ h3 {
     display: none;
   }
 }
-
-/* hero section */
-/* .hero {
-} */
 
 .logo {
   height: 5rem;
@@ -220,7 +216,6 @@ h3 {
 
 .hero-content {
   display: flex;
-  /* height: 45rem; */
   gap: 2rem;
 
   @media (max-width: 1000px) {
@@ -277,7 +272,6 @@ h3 {
   /* grid-template-rows: 1fr 1fr; */
   grid-auto-rows: 23rem;
   gap: 2rem;
-  /* height: 45rem; */
 
   @media (max-width: 40rem) {
     gap: 1rem;
