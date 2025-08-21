@@ -43,15 +43,15 @@ Check it out at:
 
 ## Technologies Used
 
-- **HTML5** — Semantic structure (`header`, `section`, `main`, `footer`)
-- **CSS3** — Styling with:
+- **HTML5** - Semantic structure (`header`, `section`, `main`, `footer`)
+- **CSS3** - Styling with:
   - CSS Custom Properties (e.g., `--color-primary`)
   - Flexbox & Grid layouts
   - `rem` units for scalable sizing
   - `box-sizing: border-box` to simplify layout math
   - Media queries for responsiveness
   - Hover effects & transitions
-- **JavaScript (minimal)** — for mobile menu toggle and form behavior
+- **JavaScript (minimal)** - for mobile menu toggle and form behavior
 - **External Resources**:
   - Google Fonts: Inter & Roboto
   - Font Awesome: Social icons
@@ -128,11 +128,11 @@ This project is ideal for learning and teaching purposes. Feel free to:
 
 ## Credits
 
-- **Font Awesome** — for social media icons
-- **Web3Forms** — for backend-less form handling with email notifications
-- **Google Fonts (Inter, Roboto)** — for typography
-- **Google Forms + Sheets** — for order management & sorting
-- **YouTube & Google Maps** — integrated for recipes & location
+- **Font Awesome** - for social media icons
+- **Web3Forms** - for backend-less form handling with email notifications
+- **Google Fonts (Inter, Roboto)** - for typography
+- **Google Forms + Sheets** - for order management & sorting
+- **YouTube & Google Maps** - integrated for recipes & location
 
 ---
 
