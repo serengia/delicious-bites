@@ -29,7 +29,9 @@ TODO:
 <body>
     <header class="header">
         <div class="row header-content">
-            <img src="delicious-bites-logo.png" alt="Delicious bites logo" class="logo">
+            <a href="/" class="logo-wrapper">
+                <img src="delicious-bites-logo.png" alt="Delicious bites logo" class="logo">
+            </a>
             <nav class="nav">
                 <div class="menu-toggle-wrapper">
                     <i class="fa-solid fa-bars menu-toggle"></i>
@@ -331,8 +333,9 @@ TODO:
             <div class="row contact-content">
                 <div class="form-wrapper">
                     <h2 class="contact-us-title">Contact Us</h2>
-                    <form class="form" action="https://api.web3forms.com/submit" method="POST">
-                        <!-- <form action="https://formspree.io/f/meoebnza" method="POST"> -->
+                    <form class="form" method="POST" id="form">
+                        <!-- action="https://api.web3forms.com/submit" -->
+                        <!-- <form class="form" action="https://formspree.io/f/meoebnza" method="POST"> -->
                         <div class="inputs-grid">
                             <div class="input-wrapper">
                                 <label for="fullname">Full name</label>
@@ -362,8 +365,12 @@ TODO:
                             <textarea id="message" rows="4" name="message"></textarea>
                         </div>
                         <div>
-                            <button type="submit" class="form-btn">Submit form</button>
+                            <p id="result"></p>
                         </div>
+                        <div>
+                            <button type="submit" class="form-btn" id="submitBtn">Submit</button>
+                        </div>
+
                     </form>
                 </div>
                 <div class="form-image">
@@ -453,6 +460,62 @@ TODO:
 
         // Initialize closeMobileMenu
         closeMobileMenu();
+
+
+        // FORM SUBMISSION
+        // https://web3forms.com/
+        const form = document.getElementById('form');
+        const result = document.getElementById('result');
+        const submitBtn = document.getElementById('submitBtn');
+
+        form.addEventListener('submit', function (e) {
+            // Disable button while submitting
+            submitBtn.disabled = true;
+            submitBtn.innerText = "Submitting...";
+            //////////////////////////////
+
+            const formData = new FormData(form);
+            e.preventDefault();
+
+            const object = Object.fromEntries(formData);
+            const json = JSON.stringify(object);
+
+            result.innerHTML = "Please wait..."
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: json
+            })
+                .then(async (response) => {
+                    let json = await response.json();
+                    if (response.status == 200) {
+                        result.innerHTML = json.message;
+                        // redirect on success
+                        window.location.href = "thankyou.html";
+                    } else {
+                        console.log(response);
+                        result.innerHTML = json.message;
+                    }
+                })
+                .catch(error => {
+                    console.log(error);
+                    result.innerHTML = "Something went wrong!";
+                })
+                .then(function () {
+                    form.reset();
+                    setTimeout(() => {
+                        result.style.display = "none";
+                    }, 3000);
+                }).finally(() => {
+                    // RESET SUBMIT STATUS
+                    submitBtn.disabled = false;
+                    submitBtn.innerText = "Submit";
+                });
+        });
     </script>
 </body>
 

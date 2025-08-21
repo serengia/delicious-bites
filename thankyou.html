@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Delicious Bites Restaurant - Love at First Bite</title>
+    <!-- <link rel="icon" href="./favicon.png"> -->
+    <link rel="icon" type="image/x-icon" href="./favicon.png">
+    <style>
+        .thankyou-page {
+            min-height: calc(100vh - 35rem);
+            padding: 6rem 0;
+
+            .thankyou-content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 2rem;
+                /* Enforce center align on mobile bug */
+                text-align: center;
+
+                @media (max-width: 900px) {
+                    h1 {
+                        font-size: 2.8rem;
+                        line-height: 1.2;
+                    }
+                }
+            }
+
+            .back-icon {
+                margin-right: 1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="row header-content">
+            <a href="/" class="logo-wrapper">
+                <img src="delicious-bites-logo.png" alt="Delicious bites logo" class="logo">
+            </a>
+            <nav class="nav">
+                <div class="menu-toggle-wrapper">
+                    <i class="fa-solid fa-bars menu-toggle"></i>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#about-us" class="nav-link active">About us</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#recipes" class="nav-link">Recipes</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link contact-us-nav-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="header-btns">
+                <a href="#contact" class="link-btn link-btn-primary contact-us-btn">Contact us</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScugsdBJrx6gjcoKzIWHZhmKjvjKP5RsDwwAa85p5rRcwFJOw/viewform?usp=dialog"
+                    target="_blank" rel="noopener noreferrer" class="link-btn link-btn-secondary">Order</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="thankyou-page">
+            <div class="row thankyou-content">
+                <h1 style="color:#307a02;">Your message was successfully submitted🎉🎉</h1>
+                <p>Thank you for reaching out. We'll get back to you soonest possible.</p>
+                <div class="btn-wrapper">
+                    <a href="/" class="link-btn link-btn-primary">
+                        <i class="fa-solid fa-angle-left back-icon"></i>
+                        Back home
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="row footer-content">
+            <div class="footer-grid">
+                <div class="f-col">
+                    <!-- <h3></h3> -->
+                    <ul>
+                        <li>Home</li>
+                        <li>Menu</li>
+                        <li>Recipe</li>
+                    </ul>
+                </div>
+                <div class="f-col">
+                    <!-- <h3></h3> -->
+                    <ul>
+                        <li>About</li>
+                        <li>Team</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+                <div class="f-col">
+                    <!-- <h3></h3> -->
+                    <ul>
+                        <li>Gallery</li>
+                        <li>Community</li>
+                        <li>Career</li>
+                    </ul>
+                </div>
+                <div class="f-col">
+                    <!-- <h3></h3> -->
+                    <ul>
+                        <li>Contact Us</li>
+                        <li>Help Center</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="f-divider">
+            <div class="f-bottom">
+                <div class="copy-right">
+                    <p class=>&copy; 2025 Delicious Bites. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <span class="text">Follow us: </span>
+                    <span><a href="#"><i class="fa-brands fa-tiktok"></i></a> </span>
+                    <span><a href="#"><i class="fa-brands fa-instagram"></i></a></span>
+                    <span><a href="#"><i class="fa-brands fa-x-twitter"></i></a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -564,6 +564,10 @@ h3 {
     }
   }
 
+  #result {
+    color: #fff;
+  }
+
   .form-image {
     flex: 1;
     background-image: url("../images/man-eating.jpg");
