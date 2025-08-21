@@ -37,6 +37,9 @@ TODO:
                     <i class="fa-solid fa-bars menu-toggle"></i>
                 </div>
                 <ul class="nav-list" onclick="closeMobileMenu()">
+                    <span class="close-mobile-menu-icon-wrapper">
+                        <i class="fa-solid fa-xmark close-mobile-menu-icon"></i>
+                    </span>
                     <li class="nav-item"><a href="#about-us" class="nav-link active">About us</a></li>
                     <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
                     <li class="nav-item"><a href="#recipes" class="nav-link">Recipes</a></li>
@@ -453,6 +456,10 @@ TODO:
             navList.addEventListener("click", function (e) {
                 // if (e.target.tagName === "A") {
                 if (e.target.classList.contains("nav-link")) {
+                    navList.classList.remove("show");
+                }
+
+                if (e.target.classList.contains("close-mobile-menu-icon")) {
                     navList.classList.remove("show");
                 }
             });

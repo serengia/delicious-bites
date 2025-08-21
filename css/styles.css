@@ -95,6 +95,8 @@ h3 {
   @media (max-width: 1000px) {
     display: none;
   }
+
+  position: relative;
 }
 
 @media (max-width: 1000px) {
@@ -132,9 +134,42 @@ h3 {
 .menu-toggle {
   font-size: 2.4rem;
   display: none;
+  cursor: pointer;
 
   @media (max-width: 1000px) {
     display: inline-block;
+  }
+}
+
+.close-mobile-menu-icon-wrapper {
+  display: none;
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: solid 2px #ddd;
+
+  @media (max-width: 1000px) {
+    display: flex;
+  }
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 500px) {
+    right: 2rem;
+  }
+
+  .close-mobile-menu-icon {
+    font-size: 2.4rem;
+    color: var(--color-primary);
+    filter: opacity(0.5);
+    cursor: pointer;
+
+    @media (max-width: 500px) {
+      font-size: 2rem;
+    }
   }
 }
 
@@ -191,6 +226,8 @@ h3 {
 .link-btn-secondary {
   background-color: var(--color-secondary);
 }
+
+/* https://curveeditor.com/ */
 
 @media (max-width: 550px) {
   .contact-us-btn {
@@ -297,10 +334,6 @@ h3 {
 }
 .video-option-4 {
   background-image: url("../images/006.jpg");
-}
-
-.gallery-content {
-  /* width: 100%; */
 }
 
 .about-content {
