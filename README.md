@@ -1,6 +1,6 @@
 # Delicious Bites Restaurant — “Love at First Bite!”
 
-Welcome to **Delicious Bites**, a single-page, responsive restaurant site crafted using HTML and CSS (plus minimal JS). This README provides you with an overview of the project, how to run it, and the key features and concepts woven into it.
+Welcome to **Delicious Bites**, a responsive restaurant site crafted using HTML and CSS (plus minimal JS). This README provides you with an overview of the project, how to run it, and the key features and concepts woven into it.
 
 ---
 
